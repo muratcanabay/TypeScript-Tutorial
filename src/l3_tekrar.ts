@@ -13,22 +13,22 @@ let tree = { name: "object", leafType: "needle" }
 
 // Optional values
 
-interface Shape {
+interface Shape1 {
     name?: string | null;
     numberOfEdge: number;
 }
 
-let triangle: Shape = {
+let triangle: Shape1 = {
     name: null,
     numberOfEdge: 3
 }
 
-let triangle2: Shape = {
+let triangle2: Shape1 = {
     name: "triangle",
     numberOfEdge: 3
 }
 
-function noMean(s: Shape): { name?: string, edgesquare: number } {
+function noMean(s: Shape1): { name?: string, edgesquare: number } {
     // ?? anlamı null of define mı 
     let name = s.name ?? "no name";
     let edgesquare = s.numberOfEdge ** 2;
