@@ -70,12 +70,14 @@ const c = "murat";
 // c = "ahmet"; cannot assing hatası verir.
 
 // Destructuring Amacı kod okunaklığını arttırmak
+// Array destructuring
+
 let rehber = ["murat", "abay"];
 const [isim, soyisim] = rehber;
 
 // console.log(isim, soyisim);
 
-// Destructuring function
+// Function destructuring
 
 dovizKuruHesapla([200, 6.80])
 function dovizKuruHesapla([miktar, guncelkur]: [number, number]) {
@@ -90,3 +92,49 @@ console.log("second: ", second);
 console.log("third: ", third);
 console.log("rest: ", kalanlar);
 
+// Object Destructuring
+
+{
+    let obj = { first: "ilk", second: "ikinci", third: "üçüncü" };
+    let { first, second, third } = obj;
+    console.log(first, second, third);
+}
+
+// Arrow Function
+
+let dice = () => Math.floor(Math.random() * 6) + 1;
+
+// Function default value declaration
+
+function something({ a, b = 100 }: { a: number, b?: number; }) {
+    return a + b;
+}
+
+function smt(num: number = 50) {
+    return num;
+}
+
+let z = smt();
+let y = smt(40);
+console.log("z ", z, " y ", y);
+
+// Interface 
+
+interface Human {
+    name: string;
+    age: number;
+    nationality: string;
+    sex: string;
+};
+
+let zeynep: Human = {
+    name: "Zeynep Ozkan",
+    age: 20,
+    nationality: "turkish",
+    sex: "female",
+};
+
+console.log(zeynep)
+
+let { age, ...rest } = zeynep;
+console.log("Rest: ", rest);
