@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "startjs": "node ./lib/index.js",
-    "start": "npm run build && node ./lib/l3_tekrar.js",
+    "start": "npm run build && node ./lib/l4_tekrar.js",
     "type-check": "tsc --noEmit",
     "type-check:watch": "npm run type-check -- --watch",
     "build": "npm run build:types && npm run build:js",
