@@ -1,0 +1,7 @@
+Type TypeScript Doc: https://www.typescriptlang.org/docs/handbook/basic-types.html
+
+1- git clone https://github.com/Microsoft/TypeScript-Babel-Starter
+
+2- npm i -g npm-upgrade
+
+3- npm install -g ts-node
