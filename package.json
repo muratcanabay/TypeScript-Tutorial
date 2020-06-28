@@ -13,6 +13,7 @@
     "start2": "npm run build && node ./lib/l2_tekrar.js",
     "start3": "npm run build && node ./lib/l3_tekrar.js",
     "start4": "npm run build && node ./lib/l4_tekrar.js",
+    "start5": "npm run build && node ./lib/l5_tekrar.js",
     "type-check": "tsc --noEmit",
     "type-check:watch": "npm run type-check -- --watch",
     "build": "npm run build:types && npm run build:js",
