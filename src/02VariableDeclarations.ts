@@ -1,4 +1,4 @@
-//  Variable Declarations
+// Variable Declarations
 // var - asla kullanma. (function scoped)
 // let - sonradan değişecekse kullan. (block scoped)
 // const - mümkün olan her zaman kullan.
@@ -54,7 +54,7 @@ for (let i = 0; i < 5; i++) {
     aykut = "gigi khadir";
     // console.log("gigi khadir: ", aykut);
 }
-// Block scoped olduğu dışarıda bunu dışarıda kullanamaayız
+// Block scoped olduğu dışarıda bunu dışarıda kullanamayız
 // console.log("gigi khadir: ", aykut); 
 
 // infinite loop

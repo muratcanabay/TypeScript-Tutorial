@@ -69,16 +69,16 @@
 }
 
 // Modules
-// const StringValidator = require("./l6/StringValidator");
-import StringValidator from "./l6/StringValidator";
-import ZipCodeValidator from "./l6/ZipCodeValidator";
-import * as AllValidators from "./l6/AllValidators";
+// const StringValidator = require("./06/StringValidator");
+import StringValidator from "./06/StringValidator";
+import ZipCodeValidator from "./06/ZipCodeValidator";
+import * as AllValidators from "./06/AllValidators";
 // import { AllValidators } from "./l6/AllValidators";
 
-// import { AValidator, BValidator } from "./l6/AllValidators";
+// import { AValidator, BValidator } from "./06/AllValidators";
 // AllValidators.
 
-// import * as AllValidators from "./l6/AllValidators";
+// import * as AllValidators from "./06/AllValidators";
 
 let sv: StringValidator = { isAcceptable: s => s.length > 1 };
 console.log("Zip", new ZipCodeValidator().isAcceptable("12345"));
