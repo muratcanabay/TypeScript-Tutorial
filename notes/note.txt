@@ -1,4 +1,4 @@
-Type TypeScript Doc: https://www.typescriptlang.org/docs/handbook/basic-types.html
+TypeScript Doc: https://www.typescriptlang.org/docs/handbook/basic-types.html
 
 1- git clone https://github.com/Microsoft/TypeScript-Babel-Starter
 
