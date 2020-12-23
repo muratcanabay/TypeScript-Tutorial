@@ -9,4 +9,4 @@
 
 ## Projenin Amacı
 
-20 saatlik TypeScript eğitiminde alınan notların paylaşılmasıdır.
+20 saatlik TypeScript eğitiminde alınan notların paylaşılmasıdır. Eğitim boyunca typescript resmi sayfasındaki <a href="https://www.typescriptlang.org/docs/handbook/intro.html" target="_blank">doküman</a> takip edilmiştir.
